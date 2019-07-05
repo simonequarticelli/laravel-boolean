@@ -7,10 +7,15 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
   </head>
   <body>
-    <header>
-      <div class="container-fluid">
-        @yield('navbar')
-      </div>
-    </header>
+
+    {{-- includo header --}}
+    @include ('templates._header');
+
+    {{-- tutto il contenuto della pagina home  --}}
+    <div class="home_container">
+      @yield('content')
+    </div>
+
+
   </body>
 </html>
