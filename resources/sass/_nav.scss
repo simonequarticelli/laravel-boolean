@@ -31,7 +31,12 @@ nav{
     display: inline-flex;
     margin: 0px 5px;
     padding: 0px 20px;
-    border-bottom: 2px solid #61ce4e;
+    &:first-child{
+      border-bottom: 2px solid #61ce4e;
+    }
+    &:hover{
+      border-bottom: 2px solid #61ce4e;
+    }
     & a{
       padding: 8px;
       color: $color_item_nav;

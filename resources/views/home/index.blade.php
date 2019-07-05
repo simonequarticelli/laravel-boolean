@@ -6,7 +6,7 @@
   home
 @endsection
 
-
+{{-- segnaposto della navbar --}}
 @section('navbar')
   <nav>
     <div class="nav__logo">
