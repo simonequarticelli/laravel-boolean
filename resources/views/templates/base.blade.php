@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="container-fluid">
-      @yield('content')
+      @yield('navbar')
     </div>
   </body>
 </html>

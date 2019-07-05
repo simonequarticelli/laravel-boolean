@@ -1,24 +1,26 @@
+{{-- richiamo il template base --}}
 @extends('templates.base')
 
+{{-- segnaposto titolo pagina --}}
 @section('titolo_pagina')
   home
 @endsection
 
 
-@section('content')
+@section('navbar')
   <nav>
     <div class="nav__logo">
-      <img src="https://www.boolean.careers/images/common/logo.png" alt="logo boolean">
+      <a href="#"><img src="https://www.boolean.careers/images/common/logo.png" alt="logo boolean"></a>
     </div>
     <div class="nav__menu">
       <ul>
-        <li><a href="#"></a>HOME</li>
-        <li><a href="#"></a>CORSO</li>
-        <li><a href="#"></a>METODO</li>
-        <li><a href="#"></a>DOPO IL CORSO</li>
-        <li><a href="#"></a>LEZIONE GRATUITA</li>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">CORSO</a></li>
+        <li><a href="#">METODO</a></li>
+        <li><a href="#">DOPO IL CORSO</a></li>
+        <li><a href="#">LEZIONE GRATUITA</a></li>
+        <button type="button" name="button"><a href="#">Iscriviti</a></button>
       </ul>
-      <button type="button" name="button">Iscriviti</button>
     </div>
   </nav>
 @endsection
