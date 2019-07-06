@@ -3,7 +3,7 @@
     <header>
       <nav>
         <div class="nav__logo">
-          <a href="{{ route('homepage')}}"><img src="https://www.boolean.careers/images/common/logo.png" alt="logo boolean"></a>
+          <a href="{{ route('homepage') }}"><img src="https://www.boolean.careers/images/common/logo.png" alt="logo boolean"></a>
         </div>
         <div class="nav__menu">
           <ul>

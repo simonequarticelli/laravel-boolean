@@ -7,7 +7,7 @@
 @endsection
 
 @section('content')
-  <div class="container-fluid main_section">
+  <div class="container-fluid main_section mt-80">
     <div class="main_section_layout"></div>
     <div class="main_section_layout_2"></div>
     <div class="container">

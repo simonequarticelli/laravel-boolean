@@ -21,4 +21,5 @@
 
 //si inserisce solo lo -->slug<--
 //rotta alla home
-Route::get('/', 'HomeController@index')->name('homepage');
+Route::get('/', 'StaticController@index')->name('homepage');
+Route::get('/static_page.privacy_policy', 'StaticController@privacy')->name('policy');

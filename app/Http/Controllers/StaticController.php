@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class StaticController extends Controller
 {
   public function index(){
 
@@ -12,6 +12,11 @@ class HomeController extends Controller
     //includerlo in html {{ $data }} <-- blade
     //compact('dato') si usa con un dato
 
-    return view('home.index');
+    return view('static_page.index');
   }
+
+  public function privacy(){
+    return view('static_page.privacy_policy');
+  }
+  
 }
