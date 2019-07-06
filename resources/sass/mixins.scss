@@ -1,0 +1,13 @@
+@mixin style_button{
+  display: inline-flex;
+  padding: 0px 20px;
+  background-color: $color_bg_button;
+  border: 0px;
+  border-radius: 3px;
+}
+
+@mixin hover{
+  background-color: $hover_button;
+  color: $body-bg;
+  text-decoration: none;
+}

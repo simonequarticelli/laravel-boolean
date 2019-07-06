@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 // Route::get('prova', function(){
 //   echo 'ciao';
@@ -21,4 +21,4 @@ Route::get('/', function () {
 
 //si inserisce solo lo -->slug<--
 //rotta alla home
-Route::get('home', 'HomeController@index');
+Route::get('/', 'HomeController@index')->name('homepage');

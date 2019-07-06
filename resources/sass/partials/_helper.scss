@@ -1,0 +1,24 @@
+.helper{
+  width: 65px;
+  height: 65px;
+  background-color: $color_bg_button;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  border-radius: 50%;
+  .fa-comment{
+    color: $body-bg;
+  }
+  .counter{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: $red;
+    color: $body-bg;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    font-size: 11px;
+  }
+}

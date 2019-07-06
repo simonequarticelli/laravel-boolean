@@ -1,0 +1,47 @@
+footer{
+  color: $text_color;
+  z-index: 0;
+  img{
+    height: 60px;
+  }
+  ul li{
+    list-style-type: none;
+    & a{
+      color: $text_color;
+      padding: 5px;
+      &:hover{
+        color: $text_color;
+      }
+    }
+  }
+  .icon_footer{
+    font-size: 25px;
+    ul li{
+      display: inline-block;
+    }
+  }
+  .fa-facebook-square:hover{
+    transition: .3s;
+    color: $blue;
+  }
+  .fa-linkedin:hover{
+    transition: .3s;
+    color: $blue;
+  }
+  .fa-youtube:hover{
+    transition: .3s;
+    color: $red;
+  }
+  .fa-whatsapp:hover{
+    transition: .3s;
+    color: $green;
+  }
+}
+.content_footer{
+  padding: 50px 0px;
+}
+.extend_footer{
+  height: 80px;
+  background-color: $text_color;
+  color: $body-bg;
+}

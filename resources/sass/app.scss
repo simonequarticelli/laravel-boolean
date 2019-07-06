@@ -7,4 +7,8 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-@import '_nav';
+@import 'mixins';
+@import 'partials/_helper';
+@import 'partials/_nav';
+@import 'partials/_footer';
+@import 'partials/_main_section';
