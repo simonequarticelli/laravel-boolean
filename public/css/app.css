@@ -11359,16 +11359,20 @@ footer .fa-whatsapp:hover {
   margin: 5px 30px;
 }
 
-.privacy_policy {
+.privacy_policy,
+.lavora_con_noi {
   color: #1b3c59;
 }
 
-.privacy_policy h1 {
+.privacy_policy h1,
+.lavora_con_noi h1 {
   margin-top: 20px;
 }
 
 .privacy_policy p,
-.privacy_policy ul li {
+.privacy_policy ul li,
+.lavora_con_noi p,
+.lavora_con_noi ul li {
   font-size: 17px;
 }
 

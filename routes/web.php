@@ -23,3 +23,4 @@
 //rotta alla home
 Route::get('/', 'StaticController@index')->name('homepage');
 Route::get('/static_page.privacy_policy', 'StaticController@privacy')->name('policy');
+Route::get('/static_page.lavora_con_noi', 'StaticController@lavora')->name('lavora');

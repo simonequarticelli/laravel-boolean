@@ -17,7 +17,7 @@
           <li><a href="#">Domande Frequenti</a></li>
           <li><a href="#">Lezione Gratuita</a></li>
           <li><a href="{{ route('policy') }}">Privacy Policy</a></li>
-          <li><a href="#">Lavora con noi!</a></li>
+          <li><a href="{{ route('lavora') }}">Lavora con noi!</a></li>
         </ul>
       </div>
       <div class="icon_footer col-3">
